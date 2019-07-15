@@ -40,6 +40,5 @@ site.min.css
 .idea/
 .vscode/
 signalr-client/
-dist/
 global.json
 BenchmarkDotNet.Artifacts/
