@@ -1,0 +1,47 @@
+﻿
+    <div>
+        @{
+            ViewData["Title"] = "Home Page";
+        }
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label>Id Cliente</label>
+                    <input type="text" class="form-control" id="id-cliente">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" id="nombre-cliente">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-outline-success">Agregar cliente</button>
+            </div>
+        </div>
+        <div class="row">
+            Cola 1
+        </div>
+        <div class="row">
+            <ul id="cola-1" class="list-group list-group-horizontal"></ul>
+        </div>
+        <div class="row">
+            Cola 2
+        </div>
+        <div class="row">
+            <ul id="cola-2" class="list-group list-group-horizontal"></ul>
+        </div>
+        <div class="row">
+            <br>
+            Historial de atención
+        </div>
+        <div class="row">
+            <ul id="historial-atencion" class="list-group list-group-flush"></ul>
+        </div>
+    </div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/signalr/signalr.min.js"></script>
+<script src="~/js/site.js"></script>
