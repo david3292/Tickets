@@ -37,8 +37,8 @@ namespace Tickets.Queue
                 }
                 else
                 {
-                    var timeQ1 = queue1.Count * 3;
-                    var timeQ2 = queue2.Count * 6;
+                    var timeQ1 = queue1.Count * 2;
+                    var timeQ2 = queue2.Count * 3;
                     if (timeQ1 <= timeQ2)
                     {
                         queue1.Enqueue(client);
